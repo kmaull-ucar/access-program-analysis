@@ -1,0 +1,370 @@
+{
+	"network": {
+		"items": [
+			{
+				"id": 1,
+				"label": "agricultural",
+				"x": 0.5926,
+				"y": -0.6017,
+				"cluster": 3,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 54.0000,
+					"Occurrences": 54.0000
+				}
+			},
+			{
+				"id": 2,
+				"label": "astronomy",
+				"x": 0.7318,
+				"y": 0.3686,
+				"cluster": 5,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 612.0000,
+					"Occurrences": 612.0000
+				}
+			},
+			{
+				"id": 3,
+				"label": "biochemistry",
+				"x": -0.6113,
+				"y": 0.4732,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 850.0000,
+					"Occurrences": 425.0000
+				}
+			},
+			{
+				"id": 4,
+				"label": "biological science",
+				"x": 0.5926,
+				"y": -0.6016,
+				"cluster": 3,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 54.0000,
+					"Occurrences": 54.0000
+				}
+			},
+			{
+				"id": 5,
+				"label": "chemical engineering",
+				"x": 0.2368,
+				"y": -0.8324,
+				"cluster": 7,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 75.0000
+				}
+			},
+			{
+				"id": 6,
+				"label": "chemistry",
+				"x": -0.2820,
+				"y": 0.8283,
+				"cluster": 8,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 334.0000
+				}
+			},
+			{
+				"id": 7,
+				"label": "computer science",
+				"x": -0.0662,
+				"y": 0.4784,
+				"cluster": 9,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 204.0000
+				}
+			},
+			{
+				"id": 8,
+				"label": "decision science",
+				"x": 0.1250,
+				"y": -0.4424,
+				"cluster": 10,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 34.0000
+				}
+			},
+			{
+				"id": 9,
+				"label": "earth",
+				"x": 0.3905,
+				"y": 0.7176,
+				"cluster": 6,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 254.0000,
+					"Occurrences": 254.0000
+				}
+			},
+			{
+				"id": 10,
+				"label": "energy",
+				"x": 0.2245,
+				"y": 0.2091,
+				"cluster": 11,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 103.0000
+				}
+			},
+			{
+				"id": 11,
+				"label": "engineering",
+				"x": -0.2172,
+				"y": -0.5497,
+				"cluster": 12,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 589.0000
+				}
+			},
+			{
+				"id": 12,
+				"label": "environmental science",
+				"x": -0.0739,
+				"y": -0.8732,
+				"cluster": 13,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 227.0000
+				}
+			},
+			{
+				"id": 13,
+				"label": "genetics",
+				"x": -0.6093,
+				"y": 0.4694,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 850.0000,
+					"Occurrences": 425.0000
+				}
+			},
+			{
+				"id": 14,
+				"label": "immunology",
+				"x": 0.8360,
+				"y": -0.0976,
+				"cluster": 4,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 39.0000,
+					"Occurrences": 39.0000
+				}
+			},
+			{
+				"id": 15,
+				"label": "materials science",
+				"x": 0.0170,
+				"y": 0.8681,
+				"cluster": 14,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 591.0000
+				}
+			},
+			{
+				"id": 16,
+				"label": "mathematics",
+				"x": -0.4266,
+				"y": -0.7810,
+				"cluster": 15,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 29.0000
+				}
+			},
+			{
+				"id": 17,
+				"label": "medicine",
+				"x": -0.8607,
+				"y": 0.0948,
+				"cluster": 16,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 176.0000
+				}
+			},
+			{
+				"id": 18,
+				"label": "microbiology",
+				"x": 0.8360,
+				"y": -0.0976,
+				"cluster": 4,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 39.0000,
+					"Occurrences": 39.0000
+				}
+			},
+			{
+				"id": 19,
+				"label": "molecular biology",
+				"x": -0.6070,
+				"y": 0.4729,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 850.0000,
+					"Occurrences": 425.0000
+				}
+			},
+			{
+				"id": 20,
+				"label": "neuroscience",
+				"x": 0.3863,
+				"y": -0.1578,
+				"cluster": 17,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 69.0000
+				}
+			},
+			{
+				"id": 21,
+				"label": "pharmaceutics",
+				"x": -0.7108,
+				"y": -0.3357,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 46.0000,
+					"Occurrences": 23.0000
+				}
+			},
+			{
+				"id": 22,
+				"label": "pharmacology",
+				"x": -0.7109,
+				"y": -0.3356,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 46.0000,
+					"Occurrences": 23.0000
+				}
+			},
+			{
+				"id": 23,
+				"label": "physics",
+				"x": 0.7326,
+				"y": 0.3671,
+				"cluster": 5,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 612.0000,
+					"Occurrences": 612.0000
+				}
+			},
+			{
+				"id": 24,
+				"label": "planetary science",
+				"x": 0.3910,
+				"y": 0.7174,
+				"cluster": 6,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 254.0000,
+					"Occurrences": 254.0000
+				}
+			},
+			{
+				"id": 25,
+				"label": "psychology",
+				"x": -0.2060,
+				"y": -0.0232,
+				"cluster": 18,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 12.0000
+				}
+			},
+			{
+				"id": 26,
+				"label": "toxicology",
+				"x": -0.7110,
+				"y": -0.3354,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 46.0000,
+					"Occurrences": 23.0000
+				}
+			}
+		],
+		"links": [
+			{
+				"source_id": 1,
+				"target_id": 4,
+				"strength": 54.0000
+			},
+			{
+				"source_id": 2,
+				"target_id": 23,
+				"strength": 612.0000
+			},
+			{
+				"source_id": 3,
+				"target_id": 13,
+				"strength": 425.0000
+			},
+			{
+				"source_id": 3,
+				"target_id": 19,
+				"strength": 425.0000
+			},
+			{
+				"source_id": 9,
+				"target_id": 24,
+				"strength": 254.0000
+			},
+			{
+				"source_id": 13,
+				"target_id": 19,
+				"strength": 425.0000
+			},
+			{
+				"source_id": 14,
+				"target_id": 18,
+				"strength": 39.0000
+			},
+			{
+				"source_id": 21,
+				"target_id": 22,
+				"strength": 23.0000
+			},
+			{
+				"source_id": 21,
+				"target_id": 26,
+				"strength": 23.0000
+			},
+			{
+				"source_id": 22,
+				"target_id": 26,
+				"strength": 23.0000
+			}
+		]
+	}
+}

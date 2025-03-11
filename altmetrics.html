@@ -1,0 +1,638 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Altmetrics Impact &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'altmetrics';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Project Data and Reproducible Analysis Code" href="data.html" />
+    <link rel="prev" title="Topical Analysis" href="topics.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="introduction.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/access-logo.svg" class="logo__image only-light" alt="My sample book - Home"/>
+    <img src="_static/access-logo.svg" class="logo__image only-dark pst-js-only" alt="My sample book - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="introduction.html">
+                    ACCESS Publication Analysis (2022-2025)
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="publications.html">Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="topics.html">Topical Analysis</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Altmetrics Impact</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">Project Data and Reproducible Analysis Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Faltmetrics.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/altmetrics.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Altmetrics Impact</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="altmetrics-impact">
+<h1>Altmetrics Impact<a class="headerlink" href="#altmetrics-impact" title="Link to this heading">#</a></h1>
+<p>The publications represented in this Altmetrics list
+are those that have <strong>between 5 and 15 citations</strong>, and
+an Altmetric score <strong>greater than 50</strong>.  You
+can find more details about the components
+of the score <a class="reference external" href="https://help.altmetric.com/support/solutions/articles/6000234288-altmetric-attention-score-modifiers">here</a>.</p>
+<p><strong>A score above 50</strong> is typically considered among the <strong>top 5%</strong> of Altmetric scores.</p>
+<p>Altmetrics scores are generally used as a metric for
+understanding <em>potential</em> impact of a publication
+and it <strong>does not necessarily</strong> correlate to citation counts or actual impact.  It can be used in
+conjuction with other metrics to paint a more complete picture of
+a publication’s impact.</p>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-right"><p>Altmetric Score</p></th>
+<th class="head text-center"><p>Publication Year</p></th>
+<th class="head text-left"><p>Title, DOI, (citations)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.5194/essd-16-2543-2024"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>Global nitrous oxide budget (1980–2020) <br/><a class="reference external" href="https://doi.org/10.5194/essd-16-2543-2024"><strong>doi:</strong> 10.5194/essd-16-2543-2024</a> <br/>(15 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41550-022-01834-5"></div></p></td>
+<td class="text-center"><p>2022</p></td>
+<td class="text-left"><p>Direct observations of a complex coronal web driving highly structured slow solar wind <br/><a class="reference external" href="https://doi.org/10.1038/s41550-022-01834-5"><strong>doi:</strong> 10.1038/s41550-022-01834-5</a> <br/>(14 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1371/journal.pbio.3002400"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Key processes required for the different stages of fungal carnivory by a nematode-trapping fungus <br/><a class="reference external" href="https://doi.org/10.1371/journal.pbio.3002400"><strong>doi:</strong> 10.1371/journal.pbio.3002400</a> <br/>(9 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1126/science.adm7607"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>Homeocurvature adaptation of phospholipids to pressure in deep-sea invertebrates <br/><a class="reference external" href="https://doi.org/10.1126/science.adm7607"><strong>doi:</strong> 10.1126/science.adm7607</a> <br/>(13 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.3847/2041-8213/ace112"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Coronal Heating Rate in the Slow Solar Wind <br/><a class="reference external" href="https://doi.org/10.3847/2041-8213/ace112"><strong>doi:</strong> 10.3847/2041-8213/ace112</a> <br/>(7 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41587-023-02100-3"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>Scalable, accessible and reproducible reference genome assembly and evaluation in Galaxy <br/><a class="reference external" href="https://doi.org/10.1038/s41587-023-02100-3"><strong>doi:</strong> 10.1038/s41587-023-02100-3</a> <br/>(13 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1002/ecs2.3994"></div></p></td>
+<td class="text-center"><p>2022</p></td>
+<td class="text-left"><p>Seasonal associations with light pollution trends for nocturnally migrating bird populations <br/><a class="reference external" href="https://doi.org/10.1002/ecs2.3994"><strong>doi:</strong> 10.1002/ecs2.3994</a> <br/>(12 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1126/science.adl2835"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>High energy density in artificial heterostructures through relaxation time modulation <br/><a class="reference external" href="https://doi.org/10.1126/science.adl2835"><strong>doi:</strong> 10.1126/science.adl2835</a> <br/>(11 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s42004-023-01090-2"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>A generative artificial intelligence framework based on a molecular diffusion model for the design of metal-organic frameworks for carbon capture <br/><a class="reference external" href="https://doi.org/10.1038/s42004-023-01090-2"><strong>doi:</strong> 10.1038/s42004-023-01090-2</a> <br/>(14 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1126/sciadv.abq4834"></div></p></td>
+<td class="text-center"><p>2022</p></td>
+<td class="text-left"><p>Leakless end-to-end transport of small molecules through micron-length DNA nanochannels <br/><a class="reference external" href="https://doi.org/10.1126/sciadv.abq4834"><strong>doi:</strong> 10.1126/sciadv.abq4834</a> <br/>(14 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.3847/2041-8213/ad0a95"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>Weakened Magnetic Braking in the Exoplanet Host Star 51 Peg <br/><a class="reference external" href="https://doi.org/10.3847/2041-8213/ad0a95"><strong>doi:</strong> 10.3847/2041-8213/ad0a95</a> <br/>(6 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1126/sciadv.adg5953"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Mechanisms of HIV-1 integrase resistance to dolutegravir and potent inhibition of drug-resistant variants <br/><a class="reference external" href="https://doi.org/10.1126/sciadv.adg5953"><strong>doi:</strong> 10.1126/sciadv.adg5953</a> <br/>(13 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1126/science.abn3263"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>Vocal learning–associated convergent evolution in mammalian proteins and regulatory elements <br/><a class="reference external" href="https://doi.org/10.1126/science.abn3263"><strong>doi:</strong> 10.1126/science.abn3263</a> <br/>(6 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41567-022-01762-1"></div></p></td>
+<td class="text-center"><p>2022</p></td>
+<td class="text-left"><p>Search for quantum gravity using astrophysical neutrino flavour with IceCube <br/><a class="reference external" href="https://doi.org/10.1038/s41567-022-01762-1"><strong>doi:</strong> 10.1038/s41567-022-01762-1</a> <br/>(15 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1111/2041-210x.14052"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p><scp>BirdFlow</scp>: Learning seasonal bird movements from <scp>eBird</scp> data <br/><a class="reference external" href="https://doi.org/10.1111/2041-210x.14052"><strong>doi:</strong> 10.1111/2041-210x.14052</a> <br/>(8 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41587-023-01868-8"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Generation of accurate, expandable phylogenomic trees with uDance <br/><a class="reference external" href="https://doi.org/10.1038/s41587-023-01868-8"><strong>doi:</strong> 10.1038/s41587-023-01868-8</a> <br/>(9 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1126/sciadv.adi7420"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Global cascade of kinetic energy in the ocean and the atmospheric imprint <br/><a class="reference external" href="https://doi.org/10.1126/sciadv.adi7420"><strong>doi:</strong> 10.1126/sciadv.adi7420</a> <br/>(5 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41467-023-37023-9"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Observation of electron orbital signatures of single atoms within metal-phthalocyanines using atomic force microscopy <br/><a class="reference external" href="https://doi.org/10.1038/s41467-023-37023-9"><strong>doi:</strong> 10.1038/s41467-023-37023-9</a> <br/>(10 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41467-024-45164-8"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>Synchrotron intensity gradient revealing magnetic fields in galaxy clusters <br/><a class="reference external" href="https://doi.org/10.1038/s41467-024-45164-8"><strong>doi:</strong> 10.1038/s41467-024-45164-8</a> <br/>(8 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41592-024-02200-1"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>A-SOiD, an active-learning platform for expert-guided, data-efficient discovery of behavior <br/><a class="reference external" href="https://doi.org/10.1038/s41592-024-02200-1"><strong>doi:</strong> 10.1038/s41592-024-02200-1</a> <br/>(11 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41467-023-40058-7"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Subunit gating resulting from individual protonation events in Kir2 channels <br/><a class="reference external" href="https://doi.org/10.1038/s41467-023-40058-7"><strong>doi:</strong> 10.1038/s41467-023-40058-7</a> <br/>(6 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1073/pnas.2313737121"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>HIV-1 capsid shape, orientation, and entropic elasticity regulate translocation into the nuclear pore complex <br/><a class="reference external" href="https://doi.org/10.1073/pnas.2313737121"><strong>doi:</strong> 10.1073/pnas.2313737121</a> <br/>(5 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1093/g3journal/jkac332"></div></p></td>
+<td class="text-center"><p>2022</p></td>
+<td class="text-left"><p>The demographic history of house mice (<i>Mus musculus domesticus</i>) in eastern North America <br/><a class="reference external" href="https://doi.org/10.1093/g3journal/jkac332"><strong>doi:</strong> 10.1093/g3journal/jkac332</a> <br/>(13 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.21105/joss.04277"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>FlowSieve: A Coarse-Graining Utility for Geophysical Flows on the Sphere <br/><a class="reference external" href="https://doi.org/10.21105/joss.04277"><strong>doi:</strong> 10.21105/joss.04277</a> <br/>(8 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1021/acsnano.3c12286"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>A-Site Cation Influence on the Structural and Optical Evolution of Ultrathin Lead Halide Perovskite Nanoplatelets <br/><a class="reference external" href="https://doi.org/10.1021/acsnano.3c12286"><strong>doi:</strong> 10.1021/acsnano.3c12286</a> <br/>(7 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.3389/fspas.2022.1067571"></div></p></td>
+<td class="text-center"><p>2022</p></td>
+<td class="text-left"><p>How open data and interdisciplinary collaboration improve our understanding of space weather: A risk and resiliency perspective <br/><a class="reference external" href="https://doi.org/10.3389/fspas.2022.1067571"><strong>doi:</strong> 10.3389/fspas.2022.1067571</a> <br/>(5 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s41586-024-07739-9"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>Structure of the human dopamine transporter and mechanisms of inhibition <br/><a class="reference external" href="https://doi.org/10.1038/s41586-024-07739-9"><strong>doi:</strong> 10.1038/s41586-024-07739-9</a> <br/>(7 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1371/journal.pbio.3002201"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Intrinsic rewards explain context-sensitive valuation in reinforcement learning <br/><a class="reference external" href="https://doi.org/10.1371/journal.pbio.3002201"><strong>doi:</strong> 10.1371/journal.pbio.3002201</a> <br/>(13 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1515/nipt-2022-0016"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Abnormal brain diffusivity in participants with persistent neuropsychiatric symptoms after COVID-19 <br/><a class="reference external" href="https://doi.org/10.1515/nipt-2022-0016"><strong>doi:</strong> 10.1515/nipt-2022-0016</a> <br/>(5 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1126/sciadv.adg0028"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Coupled topological flat and wide bands: Quasiparticle formation and destruction <br/><a class="reference external" href="https://doi.org/10.1126/sciadv.adg0028"><strong>doi:</strong> 10.1126/sciadv.adg0028</a> <br/>(9 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1016/j.carbon.2023.01.015"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Surface morphology and carbon structure effects on sputtering: Bridging scales between molecular dynamics simulations and experiments <br/><a class="reference external" href="https://doi.org/10.1016/j.carbon.2023.01.015"><strong>doi:</strong> 10.1016/j.carbon.2023.01.015</a> <br/>(9 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1126/science.adj1021"></div></p></td>
+<td class="text-center"><p>2024</p></td>
+<td class="text-left"><p>Space-tiled colloidal crystals from DNA-forced shape-complementary polyhedra pairing <br/><a class="reference external" href="https://doi.org/10.1126/science.adj1021"><strong>doi:</strong> 10.1126/science.adj1021</a> <br/>(6 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1088/1748-0221/17/11/p11003"></div></p></td>
+<td class="text-center"><p>2022</p></td>
+<td class="text-left"><p>Graph Neural Networks for low-energy event classification &amp; reconstruction in IceCube <br/><a class="reference external" href="https://doi.org/10.1088/1748-0221/17/11/p11003"><strong>doi:</strong> 10.1088/1748-0221/17/11/p11003</a> <br/>(11 citations)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1016/j.patter.2023.100816"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Bodily expressed emotion understanding through integrating Laban movement analysis <br/><a class="reference external" href="https://doi.org/10.1016/j.patter.2023.100816"><strong>doi:</strong> 10.1016/j.patter.2023.100816</a> <br/>(5 citations)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p><div class="altmetric-embed altmetric-badge-type-donut altmetric-badge-popover-left altmetric-doi-10.1038/s44160-023-00407-2"></div></p></td>
+<td class="text-center"><p>2023</p></td>
+<td class="text-left"><p>Crystallization of binary nanocrystal superlattices and the relevance of short-range attraction <br/><a class="reference external" href="https://doi.org/10.1038/s44160-023-00407-2"><strong>doi:</strong> 10.1038/s44160-023-00407-2</a> <br/>(6 citations)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="topics.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Topical Analysis</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="data.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Project Data and Reproducible Analysis Code</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

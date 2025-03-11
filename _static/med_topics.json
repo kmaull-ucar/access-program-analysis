@@ -1,0 +1,662 @@
+﻿{
+	"network": {
+		"items": [
+			{
+				"id": 1,
+				"label": "aerospace engineering",
+				"x": -0.0938,
+				"y": -0.0252,
+				"cluster": 11,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 63.0000
+				}
+			},
+			{
+				"id": 2,
+				"label": "artificial intelligence",
+				"x": -0.3733,
+				"y": 0.8000,
+				"cluster": 12,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 96.0000
+				}
+			},
+			{
+				"id": 3,
+				"label": "astronomy",
+				"x": 0.2196,
+				"y": -0.2200,
+				"cluster": 5,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 291.0000,
+					"Occurrences": 291.0000
+				}
+			},
+			{
+				"id": 4,
+				"label": "astrophysic",
+				"x": 0.2190,
+				"y": -0.2204,
+				"cluster": 5,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 291.0000,
+					"Occurrences": 291.0000
+				}
+			},
+			{
+				"id": 5,
+				"label": "atmospheric science",
+				"x": -0.0349,
+				"y": 0.9139,
+				"cluster": 13,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 141.0000
+				}
+			},
+			{
+				"id": 6,
+				"label": "atomic",
+				"x": -0.6228,
+				"y": -0.5377,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 368.0000,
+					"Occurrences": 184.0000
+				}
+			},
+			{
+				"id": 7,
+				"label": "biomaterial",
+				"x": -0.0894,
+				"y": -0.4461,
+				"cluster": 14,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 42.0000
+				}
+			},
+			{
+				"id": 8,
+				"label": "biomedical engineering",
+				"x": 0.8885,
+				"y": 0.2407,
+				"cluster": 15,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 128.0000
+				}
+			},
+			{
+				"id": 9,
+				"label": "catalysis",
+				"x": 0.8674,
+				"y": -0.2354,
+				"cluster": 16,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 57.0000
+				}
+			},
+			{
+				"id": 10,
+				"label": "cognitive neuroscience",
+				"x": 0.5736,
+				"y": -0.2530,
+				"cluster": 17,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 39.0000
+				}
+			},
+			{
+				"id": 11,
+				"label": "computational mechanic",
+				"x": -0.4800,
+				"y": 0.3366,
+				"cluster": 18,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 136.0000
+				}
+			},
+			{
+				"id": 12,
+				"label": "computational theory",
+				"x": 0.5037,
+				"y": 0.7260,
+				"cluster": 6,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 64.0000,
+					"Occurrences": 64.0000
+				}
+			},
+			{
+				"id": 13,
+				"label": "ecology",
+				"x": -0.2055,
+				"y": 0.8098,
+				"cluster": 19,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 69.0000
+				}
+			},
+			{
+				"id": 14,
+				"label": "electrical",
+				"x": -0.1194,
+				"y": 0.4090,
+				"cluster": 7,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 205.0000,
+					"Occurrences": 205.0000
+				}
+			},
+			{
+				"id": 15,
+				"label": "electronic",
+				"x": 0.4065,
+				"y": -0.7140,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 190.0000,
+					"Occurrences": 95.0000
+				}
+			},
+			{
+				"id": 16,
+				"label": "electronic engineering",
+				"x": -0.1197,
+				"y": 0.4094,
+				"cluster": 7,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 205.0000,
+					"Occurrences": 205.0000
+				}
+			},
+			{
+				"id": 17,
+				"label": "environment",
+				"x": -0.8235,
+				"y": -0.0170,
+				"cluster": 4,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 204.0000,
+					"Occurrences": 102.0000
+				}
+			},
+			{
+				"id": 18,
+				"label": "environmental engineering",
+				"x": -0.8353,
+				"y": -0.3200,
+				"cluster": 20,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 31.0000
+				}
+			},
+			{
+				"id": 19,
+				"label": "genetics",
+				"x": 0.1596,
+				"y": -0.8803,
+				"cluster": 21,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 41.0000
+				}
+			},
+			{
+				"id": 20,
+				"label": "geophysic",
+				"x": 0.6858,
+				"y": -0.0223,
+				"cluster": 22,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 58.0000
+				}
+			},
+			{
+				"id": 21,
+				"label": "high energy physics",
+				"x": 0.7233,
+				"y": -0.5034,
+				"cluster": 8,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 129.0000,
+					"Occurrences": 129.0000
+				}
+			},
+			{
+				"id": 22,
+				"label": "imaging",
+				"x": -0.1351,
+				"y": -0.8116,
+				"cluster": 3,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 94.0000,
+					"Occurrences": 47.0000
+				}
+			},
+			{
+				"id": 23,
+				"label": "inorganic chemistry",
+				"x": 0.9072,
+				"y": -0.0055,
+				"cluster": 23,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 94.0000
+				}
+			},
+			{
+				"id": 24,
+				"label": "magnetic material",
+				"x": 0.4055,
+				"y": -0.7141,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 190.0000,
+					"Occurrences": 95.0000
+				}
+			},
+			{
+				"id": 25,
+				"label": "materials chemistry",
+				"x": 0.0757,
+				"y": 0.7407,
+				"cluster": 24,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 494.0000
+				}
+			},
+			{
+				"id": 26,
+				"label": "mathematics",
+				"x": 0.5034,
+				"y": 0.7260,
+				"cluster": 6,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 64.0000,
+					"Occurrences": 81.0000
+				}
+			},
+			{
+				"id": 27,
+				"label": "matter physics",
+				"x": -0.7460,
+				"y": 0.4389,
+				"cluster": 25,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 89.0000
+				}
+			},
+			{
+				"id": 28,
+				"label": "mechanic",
+				"x": 0.2552,
+				"y": 0.5113,
+				"cluster": 26,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 59.0000
+				}
+			},
+			{
+				"id": 29,
+				"label": "mechanical engineering",
+				"x": 0.7269,
+				"y": 0.5514,
+				"cluster": 27,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 100.0000
+				}
+			},
+			{
+				"id": 30,
+				"label": "molecular biology",
+				"x": -0.8405,
+				"y": 0.2908,
+				"cluster": 28,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 372.0000
+				}
+			},
+			{
+				"id": 31,
+				"label": "molecular physics",
+				"x": -0.6221,
+				"y": -0.5396,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 368.0000,
+					"Occurrences": 184.0000
+				}
+			},
+			{
+				"id": 32,
+				"label": "nonlinear physics",
+				"x": 0.6360,
+				"y": 0.3065,
+				"cluster": 9,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 31.0000,
+					"Occurrences": 31.0000
+				}
+			},
+			{
+				"id": 33,
+				"label": "nuclear",
+				"x": 0.7236,
+				"y": -0.5034,
+				"cluster": 8,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 129.0000,
+					"Occurrences": 129.0000
+				}
+			},
+			{
+				"id": 34,
+				"label": "nuclear medicine",
+				"x": -0.1348,
+				"y": -0.8112,
+				"cluster": 3,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 94.0000,
+					"Occurrences": 47.0000
+				}
+			},
+			{
+				"id": 35,
+				"label": "oceanography",
+				"x": 0.2404,
+				"y": 0.8677,
+				"cluster": 29,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 75.0000
+				}
+			},
+			{
+				"id": 36,
+				"label": "optic",
+				"x": -0.6243,
+				"y": -0.5391,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 368.0000,
+					"Occurrences": 184.0000
+				}
+			},
+			{
+				"id": 37,
+				"label": "optical",
+				"x": 0.4057,
+				"y": -0.7131,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 190.0000,
+					"Occurrences": 95.0000
+				}
+			},
+			{
+				"id": 38,
+				"label": "organic chemistry",
+				"x": 0.3249,
+				"y": 0.2018,
+				"cluster": 30,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 193.0000
+				}
+			},
+			{
+				"id": 39,
+				"label": "physical",
+				"x": -0.5964,
+				"y": 0.6468,
+				"cluster": 10,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 53.0000,
+					"Occurrences": 53.0000
+				}
+			},
+			{
+				"id": 40,
+				"label": "planetary change",
+				"x": -0.3590,
+				"y": -0.2631,
+				"cluster": 31,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 113.0000
+				}
+			},
+			{
+				"id": 41,
+				"label": "radiology",
+				"x": -0.1347,
+				"y": -0.8118,
+				"cluster": 3,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 94.0000,
+					"Occurrences": 47.0000
+				}
+			},
+			{
+				"id": 42,
+				"label": "renewable energy",
+				"x": -0.8239,
+				"y": -0.0181,
+				"cluster": 4,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 204.0000,
+					"Occurrences": 102.0000
+				}
+			},
+			{
+				"id": 43,
+				"label": "signal processing",
+				"x": -0.4385,
+				"y": -0.7801,
+				"cluster": 32,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 30.0000
+				}
+			},
+			{
+				"id": 44,
+				"label": "spectroscopy",
+				"x": -0.4151,
+				"y": 0.0428,
+				"cluster": 33,
+				"weights": {
+					"Links": 0.0000,
+					"Total link strength": 0.0000,
+					"Occurrences": 51.0000
+				}
+			},
+			{
+				"id": 45,
+				"label": "statistical",
+				"x": 0.6360,
+				"y": 0.3065,
+				"cluster": 9,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 31.0000,
+					"Occurrences": 31.0000
+				}
+			},
+			{
+				"id": 46,
+				"label": "sustainability",
+				"x": -0.8228,
+				"y": -0.0179,
+				"cluster": 4,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 204.0000,
+					"Occurrences": 102.0000
+				}
+			},
+			{
+				"id": 47,
+				"label": "theoretical chemistry",
+				"x": -0.5967,
+				"y": 0.6468,
+				"cluster": 10,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 53.0000,
+					"Occurrences": 53.0000
+				}
+			}
+		],
+		"links": [
+			{
+				"source_id": 3,
+				"target_id": 4,
+				"strength": 291.0000
+			},
+			{
+				"source_id": 6,
+				"target_id": 31,
+				"strength": 184.0000
+			},
+			{
+				"source_id": 6,
+				"target_id": 36,
+				"strength": 184.0000
+			},
+			{
+				"source_id": 12,
+				"target_id": 26,
+				"strength": 64.0000
+			},
+			{
+				"source_id": 14,
+				"target_id": 16,
+				"strength": 205.0000
+			},
+			{
+				"source_id": 15,
+				"target_id": 24,
+				"strength": 95.0000
+			},
+			{
+				"source_id": 15,
+				"target_id": 37,
+				"strength": 95.0000
+			},
+			{
+				"source_id": 17,
+				"target_id": 42,
+				"strength": 102.0000
+			},
+			{
+				"source_id": 17,
+				"target_id": 46,
+				"strength": 102.0000
+			},
+			{
+				"source_id": 21,
+				"target_id": 33,
+				"strength": 129.0000
+			},
+			{
+				"source_id": 22,
+				"target_id": 34,
+				"strength": 47.0000
+			},
+			{
+				"source_id": 22,
+				"target_id": 41,
+				"strength": 47.0000
+			},
+			{
+				"source_id": 24,
+				"target_id": 37,
+				"strength": 95.0000
+			},
+			{
+				"source_id": 31,
+				"target_id": 36,
+				"strength": 184.0000
+			},
+			{
+				"source_id": 32,
+				"target_id": 45,
+				"strength": 31.0000
+			},
+			{
+				"source_id": 34,
+				"target_id": 41,
+				"strength": 47.0000
+			},
+			{
+				"source_id": 39,
+				"target_id": 47,
+				"strength": 53.0000
+			},
+			{
+				"source_id": 42,
+				"target_id": 46,
+				"strength": 102.0000
+			}
+		]
+	}
+}
