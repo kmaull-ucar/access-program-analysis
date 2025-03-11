@@ -21,7 +21,7 @@ Relatively lower Computer Science and Medicine, despite general prevelance: Comp
 In summary, the list showcases a strong emphasis on the physical sciences, materials science, and engineering, with significant contributions from biological and chemical sciences, and a broad representation of numerous other disciplines, showing overall, an interdisciplinary dataset.
 
 
-<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=http://libjupyter.cis240534.projects.jetstream-cloud.org:8486/_static/topics.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1000px; min-height: 500px"></iframe>
+<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=./_static/topics.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1000px; min-height: 500px"></iframe>
 
 
 This data represents a breakdown of publications across a range of more specific scientific topics. Here's a summary based on the provided categories:
@@ -42,7 +42,7 @@ This data represents a breakdown of publications across a range of more specific
 In essence, the data reveals a strong concentration in materials science, chemistry, molecular biology, and physics, with significant contributions from engineering, environmental science, and computational fields. It showcases the interdisciplinary nature of modern scientific research, with many topics bridging multiple traditional disciplines.
 
 
-<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=http://libjupyter.cis240534.projects.jetstream-cloud.org:8486/_static/med_topics.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1000px; min-height: 500px"></iframe>
+<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=./_static/med_topics.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1000px; min-height: 500px"></iframe>
 
 The list below shows the most frequent topic areas in the data:
 

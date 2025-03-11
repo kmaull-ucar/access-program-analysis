@@ -211,5 +211,5 @@ A brief  journal distribution summary shows :
 This visualization shows the topics which emerge 
 from analysis of the abstracts and titles all publications.
 
-<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=http://libjupyter.cis240534.projects.jetstream-cloud.org:8486/_static/abstracts_top_5pct.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1000px; min-height: 500px"></iframe>
+<iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=./_static/abstracts_top_5pct.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1000px; min-height: 500px"></iframe>
 
