@@ -10,7 +10,7 @@
 3. _If there were over 2100 papers in the original data, why were there only 2068 papers
    in the analysis?_
 
-   Because there were some papers in the original data which had dates before 2022.  The
-   reason for this is not known.
+    Because there were some papers in the original data which had dates before 2022. Projects that had begun during the XSEDE program may have reported publications earlier than 2022 in support of more recent allocation requests submitted during the ACCESS program.
+
 
 
