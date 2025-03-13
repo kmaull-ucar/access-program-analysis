@@ -14,4 +14,4 @@
 
 3. _Where do the Fields of Science come from?_
 
-    Fields of Science are produced from [OpenAlex topic taxonomy](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) and represent fine and coarse grain topics.
+    Fields of Science are produced from [OpenAlex topic taxonomy](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) and represent fine and coarse grain topics.  The FoS do not come from the associated ACCESS-allocated project that was given in the database. A paper can have more than one topic.

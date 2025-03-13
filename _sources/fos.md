@@ -4,7 +4,7 @@
 
 This list represents the distribution of publications across various scientific disciplines. Topics are 
 produced from [OpenAlex topic taxonomy](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) and
-represent fine and coarse grain topics.
+represent fine and coarse grain topics. A publication can have more than one topic.
 
 Here is a brief summary of the top-level topics (e.g. OpenAlex "fields"):
 
