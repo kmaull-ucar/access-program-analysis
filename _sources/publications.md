@@ -209,7 +209,7 @@ A brief  journal distribution summary shows :
 ## Publication Abstract Topic Visualization
 
 This visualization shows the topics which emerge 
-from analysis of the abstracts and titles all publications.
+from analysis of the abstracts and titles of all publications.
 
 <iframe allowfullscreen="true" src="https://app.vosviewer.com/?json=https://kmaull-ucar.github.io/access-program-analysis/_static/abstracts_titles_all.json&simple_ui=true" width="100%" height="75%" style="border: 1px solid #ddd; max-width: 1000px; min-height: 500px"></iframe>
 
