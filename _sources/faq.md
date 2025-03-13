@@ -12,5 +12,6 @@
 
     Because there were some papers in the original data which had dates before 2022. Projects that had begun during the XSEDE program may have reported publications earlier than 2022 in support of more recent allocation requests submitted during the ACCESS program.
 
+3. _Where do the Fields of Science come from?_
 
-
+    Fields of Science are produced from [OpenAlex topic taxonomy](https://help.openalex.org/hc/en-us/articles/24736129405719-Topics) and represent fine and coarse grain topics.
